@@ -1,0 +1,16 @@
+{
+  "name": "start-browser",
+  "version": "0.0.0",
+  "description": "A CLI to open local file in the default browser",
+  "author": "eight04 <eight04@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "test": "eslint **/*.js --cache",
+    "preversion": "npm test -- --max-warnings 0",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0"
+  }
+}
