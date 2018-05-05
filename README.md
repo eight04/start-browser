@@ -14,7 +14,18 @@ Usage
 -----
 
 <!--$inline.start("cli.js|docstring|markdown:codeblock")-->
-DUMMY
+```
+start-browser
+
+Usage:
+  start-browser <target> [-- <args>...]
+  
+Options:
+  <target>  A file or a URL. If the file doesn't exist, the target is treated
+            as a URL.
+  <args>    Other arguments for the browser.
+
+```
 <!--$inline.end-->
 
 To open `myfile.txt` in the browser:
