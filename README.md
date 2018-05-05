@@ -42,6 +42,6 @@ I only tested it on Windows 7. If it doesn't work on your platform, please file 
 Changelog
 ---------
 
-* 0.1.0 (?)
+* 0.1.0 (May 6, 2018)
 
   - First release.
