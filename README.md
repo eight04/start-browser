@@ -7,7 +7,7 @@ Installation
 ------------
 
 ```
-npm install -g start-browser
+npm install -g @eight04/start-browser
 ```
 
 Usage
@@ -41,6 +41,10 @@ I only tested it on Windows 7. If it doesn't work on your platform, please file 
 
 Changelog
 ---------
+
+* 0.1.1 (May 6, 2018)
+
+  - Rename to `@eight04/start-browser`.
 
 * 0.1.0 (May 6, 2018)
 
