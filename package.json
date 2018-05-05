@@ -5,6 +5,9 @@
   "author": "eight04 <eight04@gmail.com>",
   "license": "MIT",
   "repository": "eight04/start-browser",
+  "bin": {
+    "start-browser": "./cli.js"
+  },
   "keywords": [
     "cli",
     "start",
@@ -23,9 +26,11 @@
     "build": "inlinejs README.md -o README.md",
     "preversion": "npm test -- --max-warnings 0",
     "version": "npm run build && git add .",
-    "postversion": "git push --follow-tags && npm publish --access public"
+    "postversion": "git push --follow-tags && npm publish --access public",
+    "prepack": "crlf --set=LF cli.js"
   },
   "devDependencies": {
+    "crlf": "^1.1.1",
     "eslint": "^4.19.0",
     "inline-js": "^0.6.1"
   }
