@@ -42,6 +42,10 @@ I only tested it on Windows 7. If it doesn't work on your platform, please file 
 Changelog
 ---------
 
+* 0.1.3 (May 19, 2018)
+
+  - Fix: move `regedit` to optional dependencies.
+
 * 0.1.2 (May 6, 2018)
 
   - Fix: missing binary.
