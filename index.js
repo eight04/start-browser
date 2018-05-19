@@ -4,7 +4,6 @@ const access = promisify(require("fs").access);
 const {spawn} = require("child_process");
 
 const getDefaultBrowser = promisify(require("x-default-browser"));
-const regeditList = promisify(require("regedit").list);
 const fileUrl = require("file-url");
 
 function getCommand() {
@@ -13,7 +12,8 @@ function getCommand() {
       // windows
       if (os.platform() === "win32") {
         const path = `HKLM\\Software\\Clients\\StartMenuInternet\\${result.identity}\\shell\\open\\command`;
-        return regeditList(path)
+        return Promise.resolve(require("regedit"))
+          .then(regedit => promisify(regedit.list)(path))
           .then(result => {
             const command = result[path].values[""].value;
             return command;
