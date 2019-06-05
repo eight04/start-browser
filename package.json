@@ -16,8 +16,8 @@
     "default browser"
   ],
   "dependencies": {
-    "file-url": "^2.0.2",
-    "neodoc": "^2.0.0",
+    "file-url": "^3.0.0",
+    "neodoc": "^2.0.2",
     "x-default-browser": "^0.4.0"
   },
   "scripts": {
@@ -30,10 +30,10 @@
   },
   "devDependencies": {
     "crlf": "^1.1.1",
-    "eslint": "^4.19.0",
-    "inline-js": "^0.6.1"
+    "eslint": "^5.16.0",
+    "inline-js": "^0.8.0"
   },
   "optionalDependencies": {
-    "regedit": "^3.0.0"
+    "regedit": "^3.0.2"
   }
 }
