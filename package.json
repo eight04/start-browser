@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "crlf": "^1.1.1",
-    "eslint": "^5.16.0",
+    "eslint": "^8.19.0",
     "inline-js": "^0.8.0"
   },
   "optionalDependencies": {

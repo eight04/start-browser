@@ -13,7 +13,7 @@ function getCommand(verbose) {
       }
       // windows
       if (os.platform() === "win32") {
-        const identity = result.identity.replace(/firefoxurl/i, "Firefox")
+        const identity = result.identity.replace(/firefoxurl/i, "Firefox");
         const path = `HKLM\\Software\\Clients\\StartMenuInternet\\${identity}\\shell\\open\\command`;
         return Promise.resolve(require("regedit"))
           .then(regedit => promisify(regedit.list)(path))

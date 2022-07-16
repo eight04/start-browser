@@ -5,11 +5,14 @@
 	},
 	"rules": {
     "max-statements-per-line": [2, {"max": 1}],
+    "no-console": 0,
 		"no-use-before-define": [2, "nofunc"],
-		"semi": [2, "always"],
-		"no-console": 1
+		"semi": [2, "always"]
 	},
 	"extends": [
 		"eslint:recommended"
-	]
+	],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  }
 }
