@@ -18,9 +18,10 @@ Usage
 start-browser
 
 Usage:
-  start-browser <target> [-- <args>...]
+  start-browser [--verbose] <target> [-- <args>...]
   
 Options:
+  --verbose, -V  Show verbose information.
   <target>  A file or a URL. If the file doesn't exist, the target is treated
             as a URL.
   <args>    Other arguments for the browser.
@@ -41,6 +42,10 @@ I only tested it on Windows 7. If it doesn't work on your platform, please file 
 
 Changelog
 ---------
+
+* 0.2.0 (Jul 16, 2022)
+
+  - Fix: failed starting Firefox. Replace x-default-browser with eight04/x-default-browser#dev
 
 * 0.1.3 (May 19, 2018)
 
