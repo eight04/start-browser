@@ -36,5 +36,9 @@
   },
   "optionalDependencies": {
     "regedit": "^3.0.2"
-  }
+  },
+  "files": [
+    "cli.js",
+    "index.js"
+  ]
 }
