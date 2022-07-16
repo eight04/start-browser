@@ -43,6 +43,10 @@ I only tested it on Windows 7. If it doesn't work on your platform, please file 
 Changelog
 ---------
 
+* 0.2.1 (Jul 16, 2022)
+
+  - Fix: remove useless files in the package.
+
 * 0.2.0 (Jul 16, 2022)
 
   - Fix: failed starting Firefox. Replace x-default-browser with eight04/x-default-browser#dev
