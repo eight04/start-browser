@@ -16,9 +16,10 @@
     "default browser"
   ],
   "dependencies": {
+    "execa": "^6.1.0",
     "file-url": "^3.0.0",
     "neodoc": "^2.0.2",
-    "x-default-browser": "^0.4.0"
+    "x-default-browser": "github:eight04/x-default-browser#dev"
   },
   "scripts": {
     "test": "eslint **/*.js --cache",
